@@ -1,0 +1,194 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:background="#FFFFFFFF"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<ScrollView
+		android:fillViewport="true"
+		android:id="@+id/rx9e9t7wr6v8"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:background="#FF1E1E1E"
+		android:paddingBottom="29dp">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical">
+
+			<TextView
+				android:id="@+id/re37r9b5syat"
+				android:textColor="#FFFFFF"
+				android:textSize="30sp"
+				android:layout_marginBottom="21dp"
+				android:layout_marginHorizontal="26dp"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="Hey, Hello 👋"/>
+
+			<TextView
+				android:id="@+id/rpc64k4086o"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginHorizontal="25dp"
+				android:layout_marginBottom="58dp"
+				android:layout_weight="1"
+				android:text="Enter your credentials to access your account"
+				android:textColor="#FFFFFF"
+				android:textSize="18sp"/>
+
+			<TextView
+				android:id="@+id/rmcuqxjbmshp"
+				android:textColor="#FFFFFF"
+				android:textSize="16sp"
+				android:layout_marginBottom="11dp"
+				android:layout_marginHorizontal="19dp"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="Name"/>
+
+			<EditText
+				android:id="@+id/nameInput"
+				android:layout_width="match_parent"
+				android:layout_height="45dp"
+				android:background="@drawable/sff000000sw1cr10bffffffff"
+				android:layout_marginBottom="25dp"
+				android:layout_marginHorizontal="17dp"
+				android:hint="Enter your name"
+				android:inputType="textPersonName"
+				android:paddingHorizontal="10dp"
+				android:textColor="#FFFFFF"
+				android:textColorHint="#888888"/>
+
+			<TextView
+				android:id="@+id/rqsdbp386avk"
+				android:textColor="#FFFFFF"
+				android:textSize="16sp"
+				android:layout_marginBottom="12dp"
+				android:layout_marginHorizontal="19dp"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="Email address"/>
+
+			<EditText
+				android:id="@+id/emailInput"
+				android:layout_width="match_parent"
+				android:layout_height="45dp"
+				android:background="@drawable/sff000000sw1cr10bffffffff"
+				android:layout_marginBottom="26dp"
+				android:layout_marginHorizontal="17dp"
+				android:hint="Enter your email"
+				android:inputType="textEmailAddress"
+				android:paddingHorizontal="10dp"
+				android:textColor="#FFFFFF"
+				android:textColorHint="#888888"/>
+
+			<LinearLayout
+				android:id="@+id/rg9hefcj5uep"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+				android:layout_marginBottom="11dp"
+				android:layout_marginHorizontal="19dp"
+				android:orientation="horizontal">
+
+				<TextView
+					android:id="@+id/rcie841pb63l"
+					android:textColor="#FFFFFF"
+					android:textSize="16sp"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="Password"/>
+
+				<View
+					android:layout_width="0dp"
+					android:layout_height="0dp"
+					android:layout_weight="1"/>
+
+				<TextView
+					android:id="@+id/rt1vi2r5m32"
+					android:textColor="#0098FF"
+					android:textSize="14sp"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="Forgot password?"/>
+			</LinearLayout>
+
+			<EditText
+				android:id="@+id/passwordInput"
+				android:layout_width="match_parent"
+				android:layout_height="45dp"
+				android:background="@drawable/sff000000sw1cr10bffffffff"
+				android:layout_marginBottom="26dp"
+				android:layout_marginHorizontal="17dp"
+				android:hint="Enter your password"
+				android:inputType="textPassword"
+				android:paddingHorizontal="10dp"
+				android:textColor="#FFFFFF"
+				android:textColorHint="#888888"/>
+
+			<LinearLayout
+				android:id="@+id/rbbzfbbmqzab"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+				android:layout_marginBottom="82dp"
+				android:layout_marginHorizontal="21dp"
+				android:orientation="horizontal">
+
+				<LinearLayout
+					android:id="@+id/rnazk3atjvyn"
+					android:layout_width="15dp"
+					android:layout_height="15dp"
+					android:background="@drawable/sffffffffsw1cr10bff000000"
+					android:layout_marginEnd="12dp"
+					android:orientation="vertical"/>
+
+				<TextView
+					android:id="@+id/ryagl0rdtt6"
+					android:textSize="14sp"
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:layout_weight="1"
+					android:text="I agree to the Terms &amp; Privacy"/>
+			</LinearLayout>
+
+			<LinearLayout
+				android:id="@+id/rlmowvx2sbm"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
+				android:background="@drawable/cr50bffffffff"
+				android:paddingVertical="16dp"
+				android:layout_marginBottom="58dp"
+				android:layout_marginHorizontal="19dp"
+				android:orientation="vertical">
+
+				<Button
+					android:id="@+id/rr7hciu2kw8g"
+					android:textColor="#0098FF"
+					android:textSize="20sp"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="Log in"
+					android:background="@android:color/transparent"
+					android:padding="0dp"
+					android:minHeight="0dp"
+					android:minWidth="0dp"/>
+			</LinearLayout>
+
+			<TextView
+				android:id="@+id/roqiyi3w3z2"
+				android:textColor="#777777"
+				android:textSize="12sp"
+				android:layout_marginHorizontal="103dp"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="© 2023 SO, All right Reserved"/>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>
